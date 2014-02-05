@@ -1,3 +1,4 @@
+*This repository is a mirror of the [component](http://component.io) module [triagens/arangodb-nodejs](http://github.com/triagens/arangodb-nodejs). It has been modified to work with NPM+Browserify. You can install it using the command `npm install npmcomponent/triagens-arangodb-nodejs`.*
 ArangoDB client
 ===============
 A client for the ArangoDB nosql database for nodejs and browsers.

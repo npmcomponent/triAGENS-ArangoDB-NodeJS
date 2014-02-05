@@ -1,43 +1,18 @@
 {
-  "name": "arango",
+  "name": "triagens-arangodb-nodejs",
+  "description": "ArangoDB client",
   "version": "0.4.2",
-  "description": "ArangoDB javascript client",
   "keywords": [
+    "nosql",
     "arangodb",
-    "client",
-    "nosql"
+    "database",
+    "client"
   ],
-  "author": { 
-    "name": "Kaerus",
-    "email": "contact@kaerus.com",
-    "web": "http://kaerus.com"
+  "dependencies": {
+    "kaerus-component-uP": "git://github.com/npmcomponent/kaerus-component-uP.git",
+    "kaerus-component-ajax": "git://github.com/npmcomponent/kaerus-component-ajax.git",
+    "kaerus-component-urlparser": "git://github.com/npmcomponent/kaerus-component-urlparser.git",
+    "kaerus-component-base64": "git://github.com/npmcomponent/kaerus-component-base64.git"
   },
-  "contributors": [
-    "anders elo <anders@kaerus.com>"
-  ],
-  "dependencies":{
-    "micropromise": "git://github.com/kaerus-component/uP#0.3.7",
-    "base64": "git://github.com/kaerus-component/base64.git#0.1.0",
-    "urlparser": "git://github.com/kaerus-component/urlparser.git#0.3.9"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "chai": "*",
-    "should": "*",
-    "component":"*",
-    "mocha-phantomjs":"*"
-  },
-  "engine": "node >= 0.8.0",
-  "bugs": {
-    "url": "https://github.com/kaerus-component/arango/issues"
-  },
-  "scripts": {
-    "test":"make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/kaerus-component/arango.git"
-  },
-  "main": "index.js",
-  "license": "APACHE2_0"
+  "license": "Apache2_0"
 }
